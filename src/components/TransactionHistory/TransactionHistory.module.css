@@ -1,0 +1,27 @@
+.transactionHistory {
+   background-color: #E4E4E4;
+}
+
+th
+{
+   background-color: #00BCD5; 
+   color: white;
+   text-transform: uppercase;
+   font-weight: 400;
+   padding: 15px;
+   width: 400px;
+}
+td {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #676B6E; 
+   
+    padding: 10px;
+    text-indent: 40%;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+tr:nth-child(even) {
+    background-color: #ECF1F4;
+}

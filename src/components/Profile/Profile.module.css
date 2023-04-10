@@ -1,0 +1,71 @@
+:root {
+    --tag-font-color: #A3ACB7;
+    --description-color: white;
+    --shadow-color: rgba(181, 171, 171, 0.8);
+}
+
+.profile {
+    background-color: #E7ECF2;
+    padding: 150px;
+    margin: 50px;
+}
+
+.description{
+    background-color: var(--description-color);
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    padding: 60px;
+    box-shadow: 4px 4px 4px var(--shadow-color);
+}
+.avatar{
+    border: 1px solid #cbc4c4;
+    border-radius: 100%;
+}
+.name{
+    font-size: 46px;
+    font-weight: 700;
+}
+.tag{
+    color: var(--tag-font-color);
+}
+.location{
+    color: var(--tag-font-color);
+}
+.stats{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    background-color: #F3F6F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    list-style: none;
+    box-shadow: 4px 4px 4px var(--shadow-color);
+}
+.stats li:last-child{
+    border-radius: 0 0 15px 0;   
+}
+.stats li:first-child {
+    border-radius: 0 0 0 15px;
+}
+.stats li {
+    display: grid;
+    align-items: center;
+    width: calc(100%/3);
+    height: 100%;
+    border: 1px solid #ede9e9; 
+}
+
+.label{
+    padding-top: 20px;
+   font-size: 28px; 
+    color: var(--tag-font-color);
+}
+.quantity{
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
